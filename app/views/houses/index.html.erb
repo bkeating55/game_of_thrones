@@ -1,0 +1,11 @@
+
+<h2> Houses of Westeros </h2>
+<ul>
+  <% @houses.each do |h| %>
+    <li>
+      <%= h.name %>
+      <img src = "<%= h.img_url %>"/>
+      
+      </li>
+  <% end %>
+</ul>
